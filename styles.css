@@ -143,6 +143,7 @@ text-align:center ;
 .row {
     display: flex;
     margin-bottom: 20px;
+}
 .row >.form-grup {
     width: 50%;
     margin-right: 20px;
@@ -152,10 +153,19 @@ text-align:center ;
     margin-right: 0;
 }
 .btn {
-    
     background: #111;
     color: #fff;
     font-family: inherit;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 28px;
+    display:block;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.btn:hover {
+opacity: 0.9;
+}
     padding: 15px 20px;
     cursor: pointer;
     border-radius: 28px;
