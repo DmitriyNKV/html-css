@@ -143,10 +143,13 @@ text-align:center ;
 .row {
     display: flex;
     margin-bottom: 20px;
-}
 .row >.form-grup {
     width: 50%;
-    margin-right: 25px;
+    margin-right: 20px;
+}
+
+.row >.form-grup:last-child{
+    margin-right: 0;
 }
 .btn {
     
